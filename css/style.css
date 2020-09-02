@@ -1,0 +1,58 @@
+
+body{
+  background: lightblue;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+#header-img {
+  display: flex;
+  margin-top: 30px;
+}
+#nav-bar {
+  overflow: hidden;
+  background-color: lightblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 18px;
+
+}
+#aboutt{
+  text-decoration: underline;;
+}
+#servicess{
+  text-decoration: underline;
+}
+h1{
+  text-align: center;
+  font-weight: bolder;
+}
+p{
+  text-align: center;
+}
+#title{
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+#contactuss{
+  text-decoration;
+}
